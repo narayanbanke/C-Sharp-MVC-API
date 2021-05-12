@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forloop", "..\Forloop\Forlo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "..\BreakContinue\BreakContinue.csproj", "{0C3343B5-1EA2-4104-9649-F8961331AE5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classdemo", "..\classdemo\classdemo.csproj", "{723D59D6-38DD-4215-9B74-8568739AA5B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassObject", "..\ClassObject\ClassObject.csproj", "{B94477E5-1B44-4043-A42E-F3D14AD9622E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{0C3343B5-1EA2-4104-9649-F8961331AE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C3343B5-1EA2-4104-9649-F8961331AE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C3343B5-1EA2-4104-9649-F8961331AE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{723D59D6-38DD-4215-9B74-8568739AA5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723D59D6-38DD-4215-9B74-8568739AA5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723D59D6-38DD-4215-9B74-8568739AA5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723D59D6-38DD-4215-9B74-8568739AA5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B94477E5-1B44-4043-A42E-F3D14AD9622E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94477E5-1B44-4043-A42E-F3D14AD9622E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94477E5-1B44-4043-A42E-F3D14AD9622E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94477E5-1B44-4043-A42E-F3D14AD9622E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
