@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jagged_arr", "jagged_arr.csproj", "{2A98BCCF-6343-462A-AFFC-2F596C42D32E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignledimArry", "..\SignledimArry\SignledimArry.csproj", "{14B407AC-4296-4A56-904C-752A6B4FFC60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignledimArry", "SignledimArry.csproj", "{14B407AC-4296-4A56-904C-752A6B4FFC60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multidimenarry", "..\Multidimenarry\Multidimenarry.csproj", "{7D490440-104A-4B7E-82A2-E8F8B9F4C77D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multidimenarry", "Multidimenarry.csproj", "{7D490440-104A-4B7E-82A2-E8F8B9F4C77D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfElse", "..\IfElse\IfElse.csproj", "{B23DF004-8AA2-4B97-BD95-FA740341546B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfElse", "IfElse.csproj", "{B23DF004-8AA2-4B97-BD95-FA740341546B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "..\SwitchCase\SwitchCase.csproj", "{169B005C-FBB4-4A5D-B8DA-1E021901AD5B}"
 EndProject
