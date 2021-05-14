@@ -5,65 +5,65 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jagged_arr", "jagged_arr.csproj", "{2A98BCCF-6343-462A-AFFC-2F596C42D32E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignledimArry", "..\SignledimArry\SignledimArry.csproj", "{14B407AC-4296-4A56-904C-752A6B4FFC60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignledimArry", "SignledimArry\SignledimArry.csproj", "{14B407AC-4296-4A56-904C-752A6B4FFC60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multidimenarry", "..\Multidimenarry\Multidimenarry.csproj", "{7D490440-104A-4B7E-82A2-E8F8B9F4C77D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multidimenarry", "Multidimenarry\Multidimenarry.csproj", "{7D490440-104A-4B7E-82A2-E8F8B9F4C77D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfElse", "..\IfElse\IfElse.csproj", "{B23DF004-8AA2-4B97-BD95-FA740341546B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfElse", "IfElse\IfElse.csproj", "{B23DF004-8AA2-4B97-BD95-FA740341546B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "..\SwitchCase\SwitchCase.csproj", "{169B005C-FBB4-4A5D-B8DA-1E021901AD5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase","SwitchCase\SwitchCase.csproj", "{169B005C-FBB4-4A5D-B8DA-1E021901AD5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "While Loop", "..\While Loop\While Loop.csproj", "{7D15A97D-4F5C-4882-9E6A-A4EF54A7F004}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "While Loop", "While Loop\While Loop.csproj", "{7D15A97D-4F5C-4882-9E6A-A4EF54A7F004}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forloop", "..\Forloop\Forloop.csproj", "{6702C95D-C377-40CB-A529-35ADA54A0998}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forloop", "Forloop\Forloop.csproj", "{6702C95D-C377-40CB-A529-35ADA54A0998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "..\BreakContinue\BreakContinue.csproj", "{0C3343B5-1EA2-4104-9649-F8961331AE5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakContinue\BreakContinue.csproj", "{0C3343B5-1EA2-4104-9649-F8961331AE5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classdemo", "..\classdemo\classdemo.csproj", "{723D59D6-38DD-4215-9B74-8568739AA5B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classdemo", "classdemo\classdemo.csproj", "{723D59D6-38DD-4215-9B74-8568739AA5B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassObject", "..\ClassObject\ClassObject.csproj", "{B94477E5-1B44-4043-A42E-F3D14AD9622E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassObject", "ClassObject\ClassObject.csproj", "{B94477E5-1B44-4043-A42E-F3D14AD9622E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP", "D:\Narayan\Training\SOLID\SOLID\SRP.csproj", "{BB0373EA-2412-4800-88DC-5C5B7F130367}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP", "SOLID\SRP.csproj", "{BB0373EA-2412-4800-88DC-5C5B7F130367}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liskow-lsp", "D:\Narayan\Training\SOLID\Liskow-lsp\Liskow-lsp.csproj", "{21A2E42B-7FA4-4A6D-90F0-3CD69202F142}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liskow-lsp", "Liskow-lsp\Liskow-lsp.csproj", "{21A2E42B-7FA4-4A6D-90F0-3CD69202F142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liskow-lsp-solve", "D:\Narayan\Training\SOLID\Liskow-lsp-solve\Liskow-lsp-solve.csproj", "{149E2960-4D88-4657-81BF-6E286E5F5472}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liskow-lsp-solve", "Liskow-lsp-solve\Liskow-lsp-solve.csproj", "{149E2960-4D88-4657-81BF-6E286E5F5472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP", "D:\Narayan\Training\SOLID\LSP\LSP.csproj", "{604C58FB-7A75-4B6B-B5C8-A0EA3A31E9DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP", "LSP\LSP.csproj", "{604C58FB-7A75-4B6B-B5C8-A0EA3A31E9DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP_prob", "D:\Narayan\Training\SOLID\OCP\OCP_prob.csproj", "{687DB8C0-F154-4F66-A883-2AF33850F546}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP_prob", "OCP\OCP_prob.csproj", "{687DB8C0-F154-4F66-A883-2AF33850F546}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP_solve", "D:\Narayan\Training\SOLID\OCP_solve\OCP_solve.csproj", "{C0E69F24-7116-4773-9FB5-65AFF36C382C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP_solve", "OCP_solve\OCP_solve.csproj", "{C0E69F24-7116-4773-9FB5-65AFF36C382C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCPintro", "D:\Narayan\Training\SOLID\OCPintro\OCPintro.csproj", "{BF96D8FB-06A6-411F-BC1C-899538B55739}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCPintro","OCPintro\OCPintro.csproj", "{BF96D8FB-06A6-411F-BC1C-899538B55739}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeProject", "D:\Narayan\Training\day7_8\EmployeeProject\EmployeeProject.csproj", "{B5FFF7E0-7E80-4E3F-88E8-33B00B0CA34A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeProject", "EmployeeProject\EmployeeProject.csproj", "{B5FFF7E0-7E80-4E3F-88E8-33B00B0CA34A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheitence", "..\inheitence\inheitence.csproj", "{5AFD447E-9AFF-420D-824A-B17AD935E139}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheitence", "inheitence\inheitence.csproj", "{5AFD447E-9AFF-420D-824A-B17AD935E139}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "..\Polymorphism\Polymorphism.csproj", "{B887E61C-476D-40C3-9A0C-9C5CFAE86258}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{B887E61C-476D-40C3-9A0C-9C5CFAE86258}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheritance1", "..\inheritance1\inheritance1.csproj", "{36198861-83BF-4E37-B1D9-CAF9372BA39F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheritance1", "inheritance1\inheritance1.csproj", "{36198861-83BF-4E37-B1D9-CAF9372BA39F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstractclass", "..\Abstractclass\Abstractclass.csproj", "{BE3A537F-0FDF-47CD-AFE0-67C8D8EB8F3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstractclass", "Abstractclass\Abstractclass.csproj", "{BE3A537F-0FDF-47CD-AFE0-67C8D8EB8F3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "constructor", "..\constructor\constructor.csproj", "{0A110516-B89D-47D0-87B8-6666DF4CDF14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "constructor", "constructor\constructor.csproj", "{0A110516-B89D-47D0-87B8-6666DF4CDF14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "..\AccessModifiers\AccessModifiers.csproj", "{01D72919-8FA2-41AA-AFCB-28491E24EC0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{01D72919-8FA2-41AA-AFCB-28491E24EC0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protected", "..\Protected\Protected.csproj", "{A5BC1F87-8C75-4867-83B5-7BA6B3F257D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protected", "Protected\Protected.csproj", "{A5BC1F87-8C75-4867-83B5-7BA6B3F257D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demointernal", "..\internal\Demointernal.csproj", "{479E5F6F-D4C4-43DD-99F2-428801B54B54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demointernal", "internal\Demointernal.csproj", "{479E5F6F-D4C4-43DD-99F2-428801B54B54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "internalUse", "..\internalUse\internalUse.csproj", "{BFB9C06D-C2E2-4F98-92C6-180CADBE2CB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "internalUse", "internalUse\internalUse.csproj", "{BFB9C06D-C2E2-4F98-92C6-180CADBE2CB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enum", "..\enum\enum.csproj", "{23248E06-DD66-4570-8A8F-BCE416FC8D7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enum", "enum\enum.csproj", "{23248E06-DD66-4570-8A8F-BCE416FC8D7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesSample", "..\FilesSample\FilesSample.csproj", "{B282ADEE-5567-4F02-A4A3-14D39D59DB7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesSample", "FilesSample\FilesSample.csproj", "{B282ADEE-5567-4F02-A4A3-14D39D59DB7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceFile", "..\ReplaceFile\ReplaceFile.csproj", "{C5F6B036-5F52-4DD5-8B51-8327921A2532}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceFile", "ReplaceFile\ReplaceFile.csproj", "{C5F6B036-5F52-4DD5-8B51-8327921A2532}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAccess", "..\FileAccess\FileAccess.csproj", "{C40F6BA5-FF7F-4F30-A7E0-E04F585C1E79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAccess", "FileAccess\FileAccess.csproj", "{C40F6BA5-FF7F-4F30-A7E0-E04F585C1E79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
