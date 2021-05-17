@@ -7,55 +7,60 @@ namespace FileIOApplication
     {
         static void Main(string[] args)
         {
-            FileStream F = new FileStream("test.dat", FileMode.OpenOrCreate,
-               FileAccess.ReadWrite);
+            //FileStream F = new FileStream("test.dat", FileMode.OpenOrCreate,
+            //   FileAccess.ReadWrite);
 
-            for (int i = 1; i <= 20; i++)
-            {
-                F.WriteByte((byte)i);
-            }
-            F.Position = 0;
-            for (int i = 0; i <= 20; i++)
-            {
-                Console.Write(F.ReadByte() + " ");
-            }
-            F.Close();
-           
-            string writeText = "Hello World!";  // Create a text string
-            File.WriteAllText("filename.txt", writeText);  // Create a file and write the content of writeText to it
+            //for (int i = 1; i <= 20; i++)
+            //{
+            //    F.WriteByte((byte)i);
+            //}
+            //F.Position = 0;
+            //for (int i = 0; i <= 20; i++)
+            //{
+            //    Console.Write(F.ReadByte() + " ");
+            //}
+            //F.Close();
 
-            string readText = File.ReadAllText("filename.txt");  // Read the contents of the file
-            Console.WriteLine(readText);  // Output the content
-            Console.ReadLine();
+            //string writeText = "Hello World!";  // Create a text string
+            //writeText =Convert.ToString( Console.ReadLine());
+
+
+            //File.WriteAllText("filename.txt", writeText);  // Create a file and write the content of writeText to it
+
+            //string readText = File.ReadAllText("filename.txt");  // Read the contents of the file
+            //Console.WriteLine(readText);  // Output the content
+            //Console.ReadLine();
             string myfile = @"filename.txt";
 
             // Appending the given texts
             using (StreamWriter sw = File.AppendText(myfile))
             {
-                sw.WriteLine("Gfg");
-                sw.WriteLine("GFG");
-                sw.WriteLine("GeeksforGeeks");
+                sw.WriteLine("narayan");
+                sw.WriteLine("prasad");
+                sw.WriteLine("banke");
             }
-           string  fName= @"filename.txt";
+            string fName = @"filename.txt";
             string fName1 = @"filename1.txt";
+            string fName2 = @"filename2.txt";
             string sourceDir = @"C:\Users\91944\source\repos\FilesSample\bin\Debug";
             string backupDir = @"C:\Users\91944\source\repos\FilesSample\bin\Debug\1";
             try
             {
                 // Will not overwrite if the destination file already exists.
-              if( !File.Exists(fName1))
-                    { 
-                File.Copy(Path.Combine(sourceDir, fName), Path.Combine(backupDir, fName1));
+                if (!File.Exists(fName1))
+                {
+                    File.Copy(Path.Combine(sourceDir, fName), Path.Combine(backupDir, fName1));
                 }
 
-                File.Delete(fName);
+                File.Delete(fName2);
             }
-             
+
             // Catch exception if the file was already copied.
-            catch (IOException copyError)
+            catch (IOException e)
             {
-                Console.WriteLine(copyError.Message);
+                Console.WriteLine(e.Message);
             }
+            Console.ReadLine();
         }
         public static void ReplaceFile(string FileToMoveAndDelete, string FileToReplace, string BackupOfFileToReplace)
         {

@@ -65,6 +65,52 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceFile", "ReplaceFile\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAccess", "FileAccess\FileAccess.csproj", "{C40F6BA5-FF7F-4F30-A7E0-E04F585C1E79}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "azureonlinexpert", "..\azureonlinexpert\", "{0023E4EE-904D-4101-8E4F-E712EFCF4D68}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54311"
+		Debug.AspNetCompiler.PhysicalPath = "..\azureonlinexpert\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54311\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54311"
+		Release.AspNetCompiler.PhysicalPath = "..\azureonlinexpert\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54311\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54311"
+		SlnRelativePath = "..\azureonlinexpert\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Exceptionsample", "..\Exceptionsample\", "{C62D3C79-2F17-42B4-BA07-52156E6FEBB2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63149"
+		Debug.AspNetCompiler.PhysicalPath = "..\Exceptionsample\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63149\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63149"
+		Release.AspNetCompiler.PhysicalPath = "..\Exceptionsample\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63149\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63149"
+		SlnRelativePath = "..\Exceptionsample\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptionsample1", "..\Exceptionsample1\Exceptionsample1.csproj", "{2BA83AEB-2227-485D-AE93-BF5D4EFA083F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +241,18 @@ Global
 		{C40F6BA5-FF7F-4F30-A7E0-E04F585C1E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C40F6BA5-FF7F-4F30-A7E0-E04F585C1E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C40F6BA5-FF7F-4F30-A7E0-E04F585C1E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0023E4EE-904D-4101-8E4F-E712EFCF4D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0023E4EE-904D-4101-8E4F-E712EFCF4D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0023E4EE-904D-4101-8E4F-E712EFCF4D68}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0023E4EE-904D-4101-8E4F-E712EFCF4D68}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C62D3C79-2F17-42B4-BA07-52156E6FEBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62D3C79-2F17-42B4-BA07-52156E6FEBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C62D3C79-2F17-42B4-BA07-52156E6FEBB2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62D3C79-2F17-42B4-BA07-52156E6FEBB2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2BA83AEB-2227-485D-AE93-BF5D4EFA083F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA83AEB-2227-485D-AE93-BF5D4EFA083F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA83AEB-2227-485D-AE93-BF5D4EFA083F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA83AEB-2227-485D-AE93-BF5D4EFA083F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

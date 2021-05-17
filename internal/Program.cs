@@ -13,7 +13,7 @@ namespace demo
         {
             demointernal objdemointernal = new demointernal();
             objdemointernal.id = 1;
-            
+           
             Console.WriteLine(objdemointernal.id);
         }
     }
@@ -23,6 +23,10 @@ namespace demo
         internal int id { get; set; }
         private int id1 { get; set; }
         public int id2 { get; set; }
+        public int add()
+        {
+            return id + id1;
+        }
     }
     public class demointernal1
     {
