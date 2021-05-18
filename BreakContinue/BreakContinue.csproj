@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AttributeAccess4\AttributeAccess4.csproj">
+      <Project>{01b2efbe-9f90-4f2f-90ad-cdedeac6bdb7}</Project>
+      <Name>AttributeAccess4</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

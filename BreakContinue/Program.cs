@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using AttributeAccess4;
 
 namespace Hello
 
@@ -12,6 +12,7 @@ namespace Hello
     {
         static void Main(string[] args)
         {
+            FirstClass f = new FirstClass();
             int i;
             for (i = 0; i <= 10; i++)
             {
