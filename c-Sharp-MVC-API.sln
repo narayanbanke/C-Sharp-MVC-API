@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liskow-lsp", "Liskow-lsp\Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liskow-lsp-solve", "Liskow-lsp-solve\Liskow-lsp-solve.csproj", "{149E2960-4D88-4657-81BF-6E286E5F5472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP", "LSP\LSP.csproj", "{604C58FB-7A75-4B6B-B5C8-A0EA3A31E9DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP-prob", "LSP\LSP-prob.csproj", "{604C58FB-7A75-4B6B-B5C8-A0EA3A31E9DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP_prob", "OCP\OCP_prob.csproj", "{687DB8C0-F154-4F66-A883-2AF33850F546}"
 EndProject
@@ -76,6 +76,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP_Solve", "SRP_Solve\SRP_Solve.csproj", "{1FF00FB7-CED7-4700-B844-B976294551F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP_SOLVEok", "SRP_SOLVEok\SRP_SOLVEok.csproj", "{6AB056E3-F3D6-41ED-8F31-238617A4290D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP-Voilation", "..\LSP-Voilation\LSP-Voilation.csproj", "{60E226F9-1234-43C1-8819-736B041EB70D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP-solve", "..\LSP-solve\LSP-solve.csproj", "{1876F89D-975F-4925-85FE-C2D672B2AAA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +235,14 @@ Global
 		{6AB056E3-F3D6-41ED-8F31-238617A4290D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AB056E3-F3D6-41ED-8F31-238617A4290D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AB056E3-F3D6-41ED-8F31-238617A4290D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E226F9-1234-43C1-8819-736B041EB70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E226F9-1234-43C1-8819-736B041EB70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E226F9-1234-43C1-8819-736B041EB70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E226F9-1234-43C1-8819-736B041EB70D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1876F89D-975F-4925-85FE-C2D672B2AAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1876F89D-975F-4925-85FE-C2D672B2AAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1876F89D-975F-4925-85FE-C2D672B2AAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1876F89D-975F-4925-85FE-C2D672B2AAA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

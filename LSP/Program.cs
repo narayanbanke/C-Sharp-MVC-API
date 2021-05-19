@@ -6,66 +6,38 @@ using System.Threading.Tasks;
 
 namespace LSP
 {
-    class Program
+    public abstract class Employee
     {
-        static void Main(string[] args)
+        public virtual string GetProjectDetails(int employeeId)
         {
-            //Calling class not following Liskov Substitution Principle  
-
-            AccessDataFile accessDataFile = new AdminDataFileUser();
-            accessDataFile.FilePath = @"c:\temp\a.txt";
-            accessDataFile.ReadFile();
-            accessDataFile.WriteFile();
-
-            AccessDataFile accessDataFileR = new RegularDataFileUser();
-            accessDataFileR.FilePath = @"c:\temp\a.txt";
-            accessDataFileR.ReadFile();
-             accessDataFileR.WriteFile();  // Throws exception  
+            return "Base Project";
+        }
+        public virtual string GetEmployeeDetails(int employeeId)
+        {
+            return "Base Employee";
         }
     }
-    // Not following the Liskov Substitution Principle  
-    public class AccessDataFile
+    public class CasualEmployee : Employee
     {
-        public string FilePath { get; set; }
-        public virtual void ReadFile()
+        public override string GetProjectDetails(int employeeId)
         {
-            // Read File logic  
-            Console.WriteLine($"Base File {FilePath} has been read");
+            return "Child Project";
         }
-        public virtual void WriteFile()
+        // May be for contractual employee we do not need to store the details into database.
+        public override string GetEmployeeDetails(int employeeId)
         {
-            //Write File Logic  
-            Console.WriteLine($"Base File {FilePath} has been written");
+            return "Child Employee";
         }
     }
-
-    public class AdminDataFileUser : AccessDataFile
+    public class ContractualEmployee : Employee
     {
-        public override void ReadFile()
+        public override string GetProjectDetails(int employeeId)
         {
-            // Read File logic  
-            Console.WriteLine($"File {FilePath} has been read");
+            return "Child Project";
         }
-
-        public override void WriteFile()
+        // May be for contractual employee we do not need to store the details into database.
+        public override string GetEmployeeDetails(int employeeId)
         {
-            //Write File Logic  
-            Console.WriteLine($"File {FilePath} has been written");
-        }
-    }
-
-
-    public class RegularDataFileUser : AccessDataFile
-    {
-        public override void ReadFile()
-        {
-            // Read File logic  
-            Console.WriteLine($"File {FilePath} has been read");
-        }
-
-        public override void WriteFile()
-        {
-            //Write File Logic  
             throw new NotImplementedException();
         }
     }

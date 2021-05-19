@@ -16,11 +16,13 @@ namespace Liskowlspsolve
             this.Id = id;
             this.Name = name;            
         }
-         public abstract decimal CalculateBonus(decimal salary);
-        public decimal Getminimumsalary(decimal salary)
-        {
-            throw new NotImplementedException();
-        }
+
+         
+            public abstract decimal CalculateBonus(decimal salary);
+        //public decimal Getminimumsalary(decimal salary)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 
     public class PartTimeEmployee : Employee
@@ -59,10 +61,10 @@ namespace Liskowlspsolve
             
         }    
 
-        public decimal Getminimumsalary(decimal salary)
-        {
-            return 5000;
-        }
+        //public decimal Getminimumsalary(decimal salary)
+        //{
+        //    return 5000;
+        //}
     }
 
 }

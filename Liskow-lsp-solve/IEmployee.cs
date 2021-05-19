@@ -9,6 +9,6 @@ namespace Liskowlspsolve
     interface IEmployee
     {
 
-        decimal Getminimumsalary(decimal salary);
+        //decimal Getminimumsalary(decimal salary);
     }
 }
