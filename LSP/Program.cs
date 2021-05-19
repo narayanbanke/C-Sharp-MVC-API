@@ -41,4 +41,18 @@ namespace LSP
             throw new NotImplementedException();
         }
     }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Employee> employeeList = new List<Employee>();
+            employeeList.Add(new ContractualEmployee());
+            employeeList.Add(new CasualEmployee());
+            foreach (Employee e in employeeList)
+            {
+                e.GetEmployeeDetails(1245);
+            }
+
+        }
+    }
 }
