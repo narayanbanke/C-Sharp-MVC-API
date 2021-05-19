@@ -65,63 +65,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceFile", "ReplaceFile\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAccess", "FileAccess\FileAccess.csproj", "{C40F6BA5-FF7F-4F30-A7E0-E04F585C1E79}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "azureonlinexpert", "..\azureonlinexpert\", "{0023E4EE-904D-4101-8E4F-E712EFCF4D68}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_54311"
-		Debug.AspNetCompiler.PhysicalPath = "..\azureonlinexpert\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54311\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_54311"
-		Release.AspNetCompiler.PhysicalPath = "..\azureonlinexpert\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54311\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "54311"
-		SlnRelativePath = "..\azureonlinexpert\"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptionsample1", "Exceptionsample1\Exceptionsample1.csproj", "{2BA83AEB-2227-485D-AE93-BF5D4EFA083F}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Exceptionsample", "..\Exceptionsample\", "{C62D3C79-2F17-42B4-BA07-52156E6FEBB2}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_63149"
-		Debug.AspNetCompiler.PhysicalPath = "..\Exceptionsample\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63149\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_63149"
-		Release.AspNetCompiler.PhysicalPath = "..\Exceptionsample\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63149\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63149"
-		SlnRelativePath = "..\Exceptionsample\"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeExample1", "AttributeExample1\AttributeExample1.csproj", "{5FB81347-B3CE-418D-94B8-52511C4F7B9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptionsample1", "..\Exceptionsample1\Exceptionsample1.csproj", "{2BA83AEB-2227-485D-AE93-BF5D4EFA083F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeExample2", "AttributeExample2\AttributeExample2.csproj", "{92CA5E2C-282F-47EC-A506-3911B848BAE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeExample1", "..\AttributeExample1\AttributeExample1.csproj", "{5FB81347-B3CE-418D-94B8-52511C4F7B9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeExample3", "AttributeExample3\AttributeExample3.csproj", "{033AEBF0-A196-456E-8E05-CE5A8221888B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeExample2", "..\AttributeExample2\AttributeExample2.csproj", "{92CA5E2C-282F-47EC-A506-3911B848BAE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeAccess4", "AttributeAccess4\AttributeAccess4.csproj", "{01B2EFBE-9F90-4F2F-90AD-CDEDEAC6BDB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeExample3", "..\AttributeExample3\AttributeExample3.csproj", "{033AEBF0-A196-456E-8E05-CE5A8221888B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP_Solve", "SRP_Solve\SRP_Solve.csproj", "{1FF00FB7-CED7-4700-B844-B976294551F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeAccess4", "..\AttributeAccess4\AttributeAccess4.csproj", "{01B2EFBE-9F90-4F2F-90AD-CDEDEAC6BDB7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP_Solve", "..\SRP_Splve\SRP_Solve.csproj", "{F150A68E-0979-4F54-B84C-3CCD9BF622C0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP_SOLVEok", "..\SRP_SOLVEok\SRP_SOLVEok.csproj", "{6AB056E3-F3D6-41ED-8F31-238617A4290D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP_SOLVEok", "SRP_SOLVEok\SRP_SOLVEok.csproj", "{6AB056E3-F3D6-41ED-8F31-238617A4290D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -253,14 +209,6 @@ Global
 		{C40F6BA5-FF7F-4F30-A7E0-E04F585C1E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C40F6BA5-FF7F-4F30-A7E0-E04F585C1E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C40F6BA5-FF7F-4F30-A7E0-E04F585C1E79}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0023E4EE-904D-4101-8E4F-E712EFCF4D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0023E4EE-904D-4101-8E4F-E712EFCF4D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0023E4EE-904D-4101-8E4F-E712EFCF4D68}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{0023E4EE-904D-4101-8E4F-E712EFCF4D68}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{C62D3C79-2F17-42B4-BA07-52156E6FEBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C62D3C79-2F17-42B4-BA07-52156E6FEBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C62D3C79-2F17-42B4-BA07-52156E6FEBB2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{C62D3C79-2F17-42B4-BA07-52156E6FEBB2}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{2BA83AEB-2227-485D-AE93-BF5D4EFA083F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2BA83AEB-2227-485D-AE93-BF5D4EFA083F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BA83AEB-2227-485D-AE93-BF5D4EFA083F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -281,10 +229,10 @@ Global
 		{01B2EFBE-9F90-4F2F-90AD-CDEDEAC6BDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B2EFBE-9F90-4F2F-90AD-CDEDEAC6BDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B2EFBE-9F90-4F2F-90AD-CDEDEAC6BDB7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F150A68E-0979-4F54-B84C-3CCD9BF622C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F150A68E-0979-4F54-B84C-3CCD9BF622C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F150A68E-0979-4F54-B84C-3CCD9BF622C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F150A68E-0979-4F54-B84C-3CCD9BF622C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF00FB7-CED7-4700-B844-B976294551F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF00FB7-CED7-4700-B844-B976294551F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF00FB7-CED7-4700-B844-B976294551F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF00FB7-CED7-4700-B844-B976294551F8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6AB056E3-F3D6-41ED-8F31-238617A4290D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6AB056E3-F3D6-41ED-8F31-238617A4290D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AB056E3-F3D6-41ED-8F31-238617A4290D}.Release|Any CPU.ActiveCfg = Release|Any CPU
