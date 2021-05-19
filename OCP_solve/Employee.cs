@@ -11,27 +11,27 @@ namespace OCP_solve
         public int Id { get; set; }
         public string Name { get; set; }
         public decimal Salary { get; set; }
-        public Employee(int id, decimal Salary,string name)
+        public Employee(int id, decimal Salary, string name)
         {
             this.Id = id;
             this.Name = name;
             this.Salary = Salary;
         }
-        public abstract decimal CalculateBonus();        
+        public abstract decimal CalculateBonus();
 
     }
 
     public class PartTimeEmployee : Employee
     {
-        public PartTimeEmployee(int id, decimal salary,string name):base (id , salary,name )
+        public PartTimeEmployee(int id, decimal salary, string name) : base(id, salary, name)
         {
             this.Id = id;
             this.Name = name;
             this.Salary = salary;
 
         }
-         public override decimal CalculateBonus()
-         {
+        public override decimal CalculateBonus()
+        {
             return this.Salary * .1M;
         }
     }
@@ -63,5 +63,17 @@ namespace OCP_solve
         }
     }
 
-
+    public class GuestEmployee : Employee
+    {
+        public GuestEmployee(int id, decimal salary, string name) : base(id, salary, name)
+        {
+            this.Id = id;
+            this.Name = name;
+            this.Salary = salary;
+        }
+        public override decimal CalculateBonus()
+        {
+            return this.Salary * .20M;
+        }
+    }
 }
