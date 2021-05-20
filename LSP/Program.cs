@@ -8,14 +8,10 @@ namespace LSP
 {
     public abstract class Employee
     {
-        public virtual string GetProjectDetails(int employeeId)
-        {
-            return "Base Project";
-        }
-        public virtual string GetEmployeeDetails(int employeeId)
-        {
-            return "Base Employee";
-        }
+        public abstract string GetProjectDetails(int employeeId);
+
+        public abstract string GetEmployeeDetails(int employeeId);
+        
     }
     public class CasualEmployee : Employee
     {
@@ -45,6 +41,7 @@ namespace LSP
     {
         static void Main(string[] args)
         {
+
             List<Employee> employeeList = new List<Employee>();
             employeeList.Add(new ContractualEmployee());
             employeeList.Add(new CasualEmployee());
@@ -52,7 +49,6 @@ namespace LSP
             {
                 e.GetEmployeeDetails(1245);
             }
-
         }
     }
 }
