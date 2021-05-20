@@ -31,7 +31,7 @@ namespace LSP
         {
             return "Child Project";
         }
-        // May be for contractual employee we do not need to store the details into database.
+       // May be for contractual employee we do not need to store the details into database.
         public override string GetEmployeeDetails(int employeeId)
         {
             throw new NotImplementedException();
