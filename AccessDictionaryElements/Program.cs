@@ -29,7 +29,7 @@ namespace AccessDictionaryElements
             //use TryGetValue() to get a value of unknown key
             string result;
 
-            if (cities.TryGetValue("France", out result))
+            if (cities.TryGetValue("UK", out result))
             {
                 Console.WriteLine(result);
             }

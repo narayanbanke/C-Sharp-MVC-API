@@ -18,11 +18,24 @@ namespace UpdateDictionary
 
             cities["UK"] = "Liverpool, Bristol"; // update value of UK key
             cities["USA"] = "Los Angeles, Boston"; // update value of USA key
-                                                   //cities["France"] = "Paris"; //throws run-time exception: KeyNotFoundException
-
-            if (cities.ContainsKey("France"))
+            string result;
+            if (cities.TryGetValue("UK", out result))
             {
-                cities["France"] = "Paris";
+                Console.WriteLine(result);
+            }                                    //cities["France"] = "Paris"; //throws run-time exception: KeyNotFoundException
+            cities.Remove("UK");
+            string result1;
+
+            if (cities.TryGetValue("UK", out result1))
+            {
+                Console.WriteLine(result1);
+            }
+
+
+
+            if (cities.ContainsKey("UK"))
+            {
+                cities["UK"] = "UK";
             }
         }
     }
