@@ -129,23 +129,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessStackusingPop", "Acce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeekStack", "PeekStack\PeekStack.csproj", "{80C3ABDC-D986-4936-9E4A-ED37828F68B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingQuaqe", "..\CreatingQuaqe\CreatingQuaqe.csproj", "{68B96BAC-8AD5-43FD-BC96-975B010DD94E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingQuaqe", "CreatingQuaqe\CreatingQuaqe.csproj", "{68B96BAC-8AD5-43FD-BC96-975B010DD94E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retrieve lementsFromQueue", "..\Retrieve lementsFromQueue\Retrieve lementsFromQueue.csproj", "{8B5E57BD-361B-4368-9416-D4213501B7C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retrieve lementsFromQueue", "Retrieve lementsFromQueue\Retrieve lementsFromQueue.csproj", "{8B5E57BD-361B-4368-9416-D4213501B7C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexer", "..\Indexer\Indexer.csproj", "{36DEAA02-8E76-44D3-B248-70DC112BAAEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexer", "Indexer\Indexer.csproj", "{36DEAA02-8E76-44D3-B248-70DC112BAAEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericIndexer", "..\GenericIndexer\GenericIndexer.csproj", "{8CAB449B-57FF-4847-9A4E-B74C72EE93BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericIndexer", "GenericIndexer\GenericIndexer.csproj", "{8CAB449B-57FF-4847-9A4E-B74C72EE93BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverloadIndexer", "..\OverloadIndexer\OverloadIndexer.csproj", "{0E791D45-216C-4CD6-B709-214F8127B902}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverloadIndexer", "OverloadIndexer\OverloadIndexer.csproj", "{0E791D45-216C-4CD6-B709-214F8127B902}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClass", "..\GenericClass\GenericClass.csproj", "{615517D0-C4E4-478C-8AEF-20445E9BEDE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClass", "GenericClass\GenericClass.csproj", "{615517D0-C4E4-478C-8AEF-20445E9BEDE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMethods", "..\GenericMethods\GenericMethods.csproj", "{A89B4FF0-4BDC-4B61-A18E-AE2FA6CF2799}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMethods", "GenericMethods\GenericMethods.csproj", "{A89B4FF0-4BDC-4B61-A18E-AE2FA6CF2799}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMethodOverloading", "..\GenericMethodOverloading\GenericMethodOverloading.csproj", "{FCB08F6A-84F3-4F92-985B-BDD9CDAA27F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMethodOverloading", "GenericMethodOverloading\GenericMethodOverloading.csproj", "{FCB08F6A-84F3-4F92-985B-BDD9CDAA27F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "..\ExtensionMethods\ExtensionMethods.csproj", "{D735D60B-0309-486E-A695-1870512FD3B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{D735D60B-0309-486E-A695-1870512FD3B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod1", "ExtensionMethod1\ExtensionMethod1.csproj", "{9661C892-D20D-4147-A21C-2BD78209587B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Democlass", "Democlass\Democlass.csproj", "{657C0D7B-87FA-4607-B2C2-1C900B186AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoClass1", "DemoClass1\DemoClass1.csproj", "{C06E7CE5-8E1C-46A9-B36C-0D360A170A05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -441,6 +447,18 @@ Global
 		{D735D60B-0309-486E-A695-1870512FD3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D735D60B-0309-486E-A695-1870512FD3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D735D60B-0309-486E-A695-1870512FD3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9661C892-D20D-4147-A21C-2BD78209587B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9661C892-D20D-4147-A21C-2BD78209587B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9661C892-D20D-4147-A21C-2BD78209587B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9661C892-D20D-4147-A21C-2BD78209587B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657C0D7B-87FA-4607-B2C2-1C900B186AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657C0D7B-87FA-4607-B2C2-1C900B186AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657C0D7B-87FA-4607-B2C2-1C900B186AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657C0D7B-87FA-4607-B2C2-1C900B186AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06E7CE5-8E1C-46A9-B36C-0D360A170A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06E7CE5-8E1C-46A9-B36C-0D360A170A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06E7CE5-8E1C-46A9-B36C-0D360A170A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06E7CE5-8E1C-46A9-B36C-0D360A170A05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

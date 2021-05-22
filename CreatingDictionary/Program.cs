@@ -30,6 +30,7 @@ namespace CreatingDictionary
 
             foreach (var kvp in cities)
                 Console.WriteLine("Key: {0}, Value: {1}", kvp.Key, kvp.Value);
+
             Console.ReadLine();
         }
     }
