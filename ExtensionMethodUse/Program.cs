@@ -42,6 +42,8 @@ namespace ExtensionMethod
             g.M3();
             g.M4();
             g.M5("Method Name: M5");
+            Console.ReadLine();
+
         }
     }
 }
