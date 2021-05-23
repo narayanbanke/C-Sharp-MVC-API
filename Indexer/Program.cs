@@ -31,11 +31,15 @@ namespace Indexer
                     strArr[index] = value;
                 }
             }
+
+            public int StoreId { get; set; }
+
+
         }
-        static void Main(string[] args)
+      static void Main(string[] args)
         {
             StringDataStore strStore = new StringDataStore();
-
+            strStore.StoreId = 1000;
             strStore[0] = "One";
             strStore[1] = "Two";
             strStore[2] = "Three";

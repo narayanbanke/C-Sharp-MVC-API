@@ -18,9 +18,9 @@ namespace AccessStackusingPop
 
             Console.Write("Number of elements in Stack: {0}", myStack.Count);
 
-            while (myStack.Count > 0)
-                Console.Write(myStack.Pop() + ",");
-
+            while (myStack.Count > 0) { 
+                Console.Write(myStack.Pop() + ",");//4,3,2,1
+            }
             Console.Write("Number of elements in Stack: {0}", myStack.Count);
         }
     }

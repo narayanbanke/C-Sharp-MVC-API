@@ -27,12 +27,15 @@ namespace PeekStack
             Console.Write("Number of elements in Stack: {0}", myStack.Count);// prints 4
 
             Stack<int> myStack1 = new Stack<int>();
+            myStack1.Push(50);
+            myStack1.Push(60);
+            myStack1.Push(5);
             myStack1.Push(1);
-            myStack1.Push(2);
-            myStack1.Push(3);
-            myStack1.Push(4);
-
-            myStack1.Contains(2); // returns true
+            while (myStack1.Count > 0)
+            {
+                Console.Write(myStack.Pop() + ",");//4,3,2,1
+            }
+            myStack1.Contains(50); // returns false
             myStack1.Contains(10); // returns false
 
 
