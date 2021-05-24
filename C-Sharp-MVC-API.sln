@@ -165,15 +165,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIPDefination", "DIPDefinat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIPimplementation", "DIPimplementation\DIPimplementation.csproj", "{3F993D68-E3C8-481B-BD65-B4031E316033}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread", "..\Thread\Thread.csproj", "{3A3CF030-9867-4334-85B3-A1B5AFF9F548}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread", "Thread\Thread.csproj", "{3A3CF030-9867-4334-85B3-A1B5AFF9F548}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread1", "..\Thread1\Thread1.csproj", "{373F8846-283B-46F9-B09B-C0D62DB804C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread1", "Thread1\Thread1.csproj", "{373F8846-283B-46F9-B09B-C0D62DB804C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminateThread", "..\TerminateThread\TerminateThread.csproj", "{6525DB2B-03E7-42BF-BBBC-FA6989323816}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminateThread", "TerminateThread\TerminateThread.csproj", "{6525DB2B-03E7-42BF-BBBC-FA6989323816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadException", "..\ThreadException\ThreadException.csproj", "{860FD251-85BF-4DD4-A167-6CC3D181C66A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadException", "ThreadException\ThreadException.csproj", "{860FD251-85BF-4DD4-A167-6CC3D181C66A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForegroundBackgroundThread", "..\ForegroundBackgroundThread\ForegroundBackgroundThread.csproj", "{0BEB48FF-0EDB-4393-8B89-EBBB7BBC50E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForegroundBackgroundThread", "ForegroundBackgroundThread\ForegroundBackgroundThread.csproj", "{0BEB48FF-0EDB-4393-8B89-EBBB7BBC50E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundForegroundThread", "D:\Narayan\CsharpTrainingConsultant\Sample\BackgroundForegroundThread\BackgroundForegroundThread\BackgroundForegroundThread\BackgroundForegroundThread.csproj", "{AE89BD3F-EFF5-47BA-81D4-2E977D4DDDE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -525,6 +527,10 @@ Global
 		{0BEB48FF-0EDB-4393-8B89-EBBB7BBC50E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BEB48FF-0EDB-4393-8B89-EBBB7BBC50E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BEB48FF-0EDB-4393-8B89-EBBB7BBC50E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE89BD3F-EFF5-47BA-81D4-2E977D4DDDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE89BD3F-EFF5-47BA-81D4-2E977D4DDDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE89BD3F-EFF5-47BA-81D4-2E977D4DDDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE89BD3F-EFF5-47BA-81D4-2E977D4DDDE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
