@@ -22,7 +22,13 @@ namespace Thread1
 				Console.WriteLine(z);
 			}
 		}
-
+		public void thread3()
+		{
+			for (int z = 0; z < 5; z++)
+			{
+				Console.WriteLine(z);
+			}
+		}
 		// static method for thread b
 		public static void thread2()
 		{
@@ -41,8 +47,11 @@ namespace Thread1
 		public static void Main()
 		{
 			// Creating and initializing threads
+			ExThread ex = new ExThread();
+
 			Thread a = new Thread(ExThread.thread1);
 			Thread b = new Thread(ExThread.thread2);
+			Thread c = new Thread(ex.thread3);
 			a.Start();
 			b.Start();
 		}

@@ -22,7 +22,7 @@ namespace ForegroundBackgroundThread
                 for (int i = 1; i < 10; i++)
                 {
                     Console.WriteLine("Executing Print1.... ");
-                    Thread.Sleep(1000);
+                  Thread.Sleep(1000);
                 }
             }
             static void Print2()
@@ -31,7 +31,7 @@ namespace ForegroundBackgroundThread
                 for (int i = 1; i < 10; i++)
                 {
                     Console.WriteLine("Executing Print2....");
-                    Thread.Sleep(1000);
+                   Thread.Sleep(1000);
                 }
             }
             static void Main(string[] args)
@@ -42,7 +42,7 @@ namespace ForegroundBackgroundThread
 
                 t1.Name = "Primary";
                 t2.Name = "Secondary";
-
+            
                 Console.WriteLine("Select your desired option: \n");
                 Console.WriteLine("1. To Run 2 Threads Parrelly");
                 Console.WriteLine("2. Foreground Vs Background");
@@ -77,9 +77,12 @@ namespace ForegroundBackgroundThread
                     }
                 }
                 Console.WriteLine("Main() method completed...");
+
+               // Console.ReadLine();
+                 
             }
 
-            static void Delay()
+            static void foregroundtask()
             {
                 for (int i = 0; i < 10; i++)
                 {
@@ -90,14 +93,16 @@ namespace ForegroundBackgroundThread
 
             static void RunningForegroundThread()
             {
-                Thread foreground = new Thread(Delay);
+                Thread foreground = new Thread(foregroundtask);
+                Console.WriteLine("Is background "+ foreground.IsBackground );
                 foreground.Start();
             }
 
             static void RunningBackgroundThread()
             {
-                Thread background = new Thread(Delay);
+                Thread background = new Thread(foregroundtask);
                 background.IsBackground = true;
+                Console.WriteLine("Is background " + background.IsBackground);
                 background.Start();
             }
         }
