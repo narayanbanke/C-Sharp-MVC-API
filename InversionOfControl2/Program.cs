@@ -7,23 +7,23 @@ using System.Threading.Tasks;
 namespace InversionOfControl2
 {
 
-    public class A
+    public class First
     {
-        B b;
+        Second objsecond;
 
-        public A()
+        public First()
         {
-            b = Factory.GetObjectOfB();
+            objsecond = Factory.GetObjectOfSecond();
         }
 
         public void Task1()
         {
             // do something here..
-            b.SomeMethod();
+            objsecond.SomeMethod();
             // do something here..
         }
     }
-    public class B
+    public class Second
     {
         public void SomeMethod()
         {
@@ -32,9 +32,9 @@ namespace InversionOfControl2
     }
     public class Factory
     {
-        public static B GetObjectOfB()
+        public static Second GetObjectOfSecond()
         {
-            return new B();
+            return new Second();
         }
     }
 
@@ -42,8 +42,13 @@ namespace InversionOfControl2
     {
         static void Main(string[] args)
         {
+           
             Factory Factory = new Factory();
-            Factory.GetObjectOfB();
+            Factory.GetObjectOfSecond();
+            First objFirst = new First();
+            objFirst.Task1();
+
+
         }
     }
 }

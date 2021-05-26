@@ -7,26 +7,22 @@ using System.Threading.Tasks;
 namespace InversionOfControl1
 {
 
-    public class A
+    public class First
     {
-        B b;
-
-        public A()
+        Second objSecond;
+        public First()
         {
-            b = new B();
+            objSecond = new Second();
         }
-
         public void Task1()
         {
             // do something here..
-            b.SomeMethod();
+            objSecond.SomeMethod();
             // do something here..
         }
-
     }
-    public class B
+    public class Second
     {
-
         public void SomeMethod()
         {
             //doing something..
@@ -36,6 +32,8 @@ namespace InversionOfControl1
     {
         static void Main(string[] args)
         {
+            First objFirst = new First();
+            objFirst.Task1();
             //save firstName and lastName to the database here..
         }
     }
