@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace InversionOfControl1
 {
-
     public class First
     {
         Second objSecond;

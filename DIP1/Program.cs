@@ -35,6 +35,7 @@ namespace DIP1
     {
         ICustomerDataAccess _custDataAccess;
 
+
         public CustomerBusinessLogic()
         {
             _custDataAccess = DataAccessFactory.GetCustomerDataAccessObj();
