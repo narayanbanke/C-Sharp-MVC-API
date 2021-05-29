@@ -8,13 +8,12 @@ namespace ConstructorInjection
         public class CustomerBusinessLogic
         {
             ICustomerDataAccess _dataAccess;
+        public CustomerBusinessLogic(ICustomerDataAccess custDataAccess)
+        {
+            _dataAccess = custDataAccess;
+        }
 
-            public CustomerBusinessLogic(ICustomerDataAccess custDataAccess)
-            {
-                _dataAccess = custDataAccess;
-            }
-
-            public CustomerBusinessLogic()
+        public CustomerBusinessLogic()
             {
                 _dataAccess = new CustomerDataAccess();
             }
@@ -24,6 +23,7 @@ namespace ConstructorInjection
                 return _dataAccess.GetCustomerName(id);
             }
         }
+    
         public interface ICustomerDataAccess
         {
             string GetCustomerName(int id);
@@ -40,25 +40,34 @@ namespace ConstructorInjection
                 return "Dummy Customer Name";
             }
         }
-        public class CustomerService
+         
+    public class CustomerService
         {
             CustomerBusinessLogic _customerBL;
-
             public CustomerService()
             {
-                _customerBL = new CustomerBusinessLogic(new CustomerDataAccess());
-            }
+            CustomerDataAccess objCustomerDataAccess = new CustomerDataAccess();
+            _customerBL = new CustomerBusinessLogic(objCustomerDataAccess);
+            //CustomerDataAccess objCustomerDataAccess1 = new CustomerDataAccess();
+            //  _customerBL = new CustomerBusinessLogic();
 
-            public string GetCustomerName(int id)
+
+        }
+        public string GetCustomerName(int id)
             {
                 return _customerBL.ProcessCustomerData(id);
-            }
+            }      
        
+    }
+        class program
+    {
         static void Main(string[] args)
         {
             CustomerService obj = new CustomerService();
             obj.GetCustomerName(1);
 
         }
+
     }
+
 }
