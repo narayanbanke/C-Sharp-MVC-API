@@ -211,9 +211,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityContainerPropertyInjec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityContainerPropertyInjectionDependencyAttribute", "UnityContainerPropertyInjectionDependencyAttribute\UnityContainerPropertyInjectionDependencyAttribute.csproj", "{E98E9393-14DB-4C52-A4EE-F311A948AB06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL", "..\TPL\TPL.csproj", "{BE83ED23-4214-483E-82EF-98DFE828F799}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL", "TPL\TPL.csproj", "{BE83ED23-4214-483E-82EF-98DFE828F799}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL1", "..\TPL1\TPL1.csproj", "{2B34E6BA-46ED-424B-A13E-58CA921D46FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL1", "TPL1\TPL1.csproj", "{2B34E6BA-46ED-424B-A13E-58CA921D46FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorInjection-unity", "ConstructorInjection-unity\ConstructorInjection-unity.csproj", "{A6B52E5F-D82C-47A3-966D-FBAE08ADF9BF}"
 EndProject
