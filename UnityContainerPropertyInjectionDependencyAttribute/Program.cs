@@ -57,7 +57,7 @@ namespace UnityContainerPropertyInjectionDependencyAttribute
 
             public void RunCar()
             {
-                Console.WriteLine("Running {0} - {1} mile ", this.Car.GetType().Name, this.Car.Run());
+                Console.WriteLine("Running {0} - {1} mile ", this.Car.GetType().Name, Car.Run());
             }
         }
         static void Main(string[] args)

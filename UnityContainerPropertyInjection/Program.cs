@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Unity;
+using Unity.Injection;
 
 namespace UnityContainerPropertyInjection
 {
@@ -51,7 +52,7 @@ namespace UnityContainerPropertyInjection
             {
             }
 
-            [Dependency]
+            [Dependency("LuxuryCar")]
             public ICar Car { get; set; }
 
             public void RunCar()
@@ -62,11 +63,23 @@ namespace UnityContainerPropertyInjection
 
         static void Main(string[] args)
         {
-            var container = new UnityContainer();
-            container.RegisterType<ICar, BMW>();
+            //var container = new UnityContainer();
 
-            var driver = container.Resolve<Driver>();
-            driver.RunCar();
+            ////run-time configuration
+            //container.RegisterType<Driver>(new InjectionProperty("Car", new BMW()));
+
+            //var driver = container.Resolve<Driver>();
+            //driver.RunCar();
+            var container1 = new UnityContainer();
+             container1.RegisterType<ICar, BMW>("LuxuryCar");
+           container1.RegisterType<ICar, Audi>("Car");
+
+            var driver1 = container1.Resolve<Driver>();
+            driver1.RunCar();
+            Console.ReadLine();
+
+
+
         }
     }
 }
