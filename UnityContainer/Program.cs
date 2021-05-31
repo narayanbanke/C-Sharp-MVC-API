@@ -59,9 +59,10 @@ namespace UnityContainer
         }
         static void Main(string[] args)
         {
-            Driver driver = new Driver(new BMW());
-
-            driver.RunCar();
+            Driver BMWdriver = new Driver(new BMW());
+            Driver Forddriver = new Driver(new Ford());
+            BMWdriver.RunCar();
+            Forddriver.RunCar();
         }
     }
 }

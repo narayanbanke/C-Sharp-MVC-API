@@ -15,7 +15,7 @@ namespace UnityContainerConstructorinjection
         }
         public class BMW : ICar
         {
-            private int _miles = 0;
+            private int _miles = 2;
 
             public int Run()
             {
@@ -47,11 +47,19 @@ namespace UnityContainerConstructorinjection
         }
         static void Main(string[] args)
         {
-            var container = new UnityContainer();
-            container.RegisterType<ICar, BMW>();
-            container.RegisterType<ICar, Ford >();
-            var driver = container.Resolve<Driver>();
-            driver.RunCar();
+            var BMWcontainer = new UnityContainer();
+           //  var Fordcontainer = new UnityContainer();
+            BMWcontainer.RegisterType<ICar, BMW>();
+           //  Fordcontainer.RegisterType<ICar, Ford >();
+            var BMWdriver = BMWcontainer.Resolve<Driver>();
+            //   var Forddriver = Fordcontainer.Resolve<Driver>();
+           
+            BMWdriver.RunCar();
+           // Forddriver.RunCar();
+            
+
+
+
         }
     }
 }
