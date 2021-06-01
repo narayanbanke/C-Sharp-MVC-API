@@ -52,7 +52,7 @@ namespace UnityContainerPropertyInjection
             {
             }
 
-            [Dependency("LuxuryCar")]
+            [Dependency("Car")]
             public ICar Car { get; set; }
 
             public void RunCar()
@@ -71,11 +71,15 @@ namespace UnityContainerPropertyInjection
             //var driver = container.Resolve<Driver>();
             //driver.RunCar();
             var container1 = new UnityContainer();
-             container1.RegisterType<ICar, BMW>("LuxuryCar");
-           container1.RegisterType<ICar, Audi>("Car");
+            container1.RegisterType<ICar, BMW>("Car");
 
+            var container2 = new UnityContainer();
+            container2.RegisterType<ICar, Audi>("Car");
+            var driver2 = container2.Resolve<Driver>();
             var driver1 = container1.Resolve<Driver>();
             driver1.RunCar();
+            driver2.RunCar();
+
             Console.ReadLine();
 
 
