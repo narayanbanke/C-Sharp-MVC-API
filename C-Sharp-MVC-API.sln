@@ -217,47 +217,47 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL1", "TPL1\TPL1.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorInjection-unity", "ConstructorInjection-unity\ConstructorInjection-unity.csproj", "{A6B52E5F-D82C-47A3-966D-FBAE08ADF9BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityContainerMethodInjection", "..\UnityContainerMethodInjection\UnityContainerMethodInjection.csproj", "{66C2F3C2-540A-4761-A63F-B5300556D421}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityContainerMethodInjection", "UnityContainerMethodInjection\UnityContainerMethodInjection.csproj", "{66C2F3C2-540A-4761-A63F-B5300556D421}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "..\Task1\Task1.csproj", "{60150492-9FEE-4263-889D-B58A1EF672A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{60150492-9FEE-4263-889D-B58A1EF672A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "..\Task2\Task2.csproj", "{A8502C8E-0777-4B35-9142-11B25C9A05CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{A8502C8E-0777-4B35-9142-11B25C9A05CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "..\Task3\Task3.csproj", "{A91C338A-EE64-43B1-A146-004526DA4D96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "Task3\Task3.csproj", "{A91C338A-EE64-43B1-A146-004526DA4D96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncandawaitUI", "..\AsyncandawaitUI\AsyncandawaitUI.csproj", "{A6470672-BC89-42CB-9A44-70F88D865EC1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncandawaitUI", "AsyncandawaitUI\AsyncandawaitUI.csproj", "{A6470672-BC89-42CB-9A44-70F88D865EC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asyncandawait", "..\Asyncandawait\Asyncandawait.csproj", "{D9B67BCD-4C38-49A5-A524-E5E2736426AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asyncandawait", "Asyncandawait\Asyncandawait.csproj", "{D9B67BCD-4C38-49A5-A524-E5E2736426AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asyncandawait1", "..\Asyncandawait1\Asyncandawait1.csproj", "{1DAC2A71-9E2F-47A4-83F1-E59C76247518}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asyncandawait1", "Asyncandawait1\Asyncandawait1.csproj", "{1DAC2A71-9E2F-47A4-83F1-E59C76247518}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncandawaitUI1", "..\AsyncandawaitUI1\AsyncandawaitUI1.csproj", "{183D4B09-8CF6-438F-AC28-81C24F741134}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncandawaitUI1", "AsyncandawaitUI1\AsyncandawaitUI1.csproj", "{183D4B09-8CF6-438F-AC28-81C24F741134}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate1", "..\Delegate1\Delegate1.csproj", "{50F64A91-2BC8-43DF-9247-5487E83BB357}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate1", "Delegate1\Delegate1.csproj", "{50F64A91-2BC8-43DF-9247-5487E83BB357}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegate", "..\ConsoleApp6\MulticastDelegate.csproj", "{12033CE8-5980-4202-90EF-4C1FAD6DF19A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegate", "ConsoleApp6\MulticastDelegate.csproj", "{12033CE8-5980-4202-90EF-4C1FAD6DF19A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressionExample1", "..\LambdaExpressionExample1\LambdaExpressionExample1.csproj", "{6C25DD9D-3683-4318-A4EC-57F2EDF0FE3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressionExample1", "LambdaExpressionExample1\LambdaExpressionExample1.csproj", "{6C25DD9D-3683-4318-A4EC-57F2EDF0FE3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExample2", "..\LambdaExample2\LambdaExample2.csproj", "{67759E78-AED1-48A7-A020-2BB8CDF889A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExample2", "LambdaExample2\LambdaExample2.csproj", "{67759E78-AED1-48A7-A020-2BB8CDF889A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressionswithAnonymousTypes", "..\LambdaExpressionswithAnonymousTypes\LambdaExpressionswithAnonymousTypes.csproj", "{6C3CAFFE-412F-4649-997D-66A328250E55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressionswithAnonymousTypes", "LambdaExpressionswithAnonymousTypes\LambdaExpressionswithAnonymousTypes.csproj", "{6C3CAFFE-412F-4649-997D-66A328250E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaexpressionwithFunc", "..\LambdaexpressionwithFunc\LambdaexpressionwithFunc.csproj", "{AF9C168B-F120-4547-AAA3-7BC508FF79DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaexpressionwithFunc", "LambdaexpressionwithFunc\LambdaexpressionwithFunc.csproj", "{AF9C168B-F120-4547-AAA3-7BC508FF79DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambdaexpressionfitnicewithcollection", "..\Lambdaexpressionfitnicewithcollection\Lambdaexpressionfitnicewithcollection.csproj", "{CE0CC951-7601-4C65-B377-55AC6CDA645F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambdaexpressionfitnicewithcollection", "Lambdaexpressionfitnicewithcollection\Lambdaexpressionfitnicewithcollection.csproj", "{CE0CC951-7601-4C65-B377-55AC6CDA645F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambdaexressioninasync", "..\Lambdaexressioninasync\Lambdaexressioninasync.csproj", "{8741F66A-003A-4C2A-9565-E79CB930D713}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambdaexressioninasync", "Lambdaexressioninasync\Lambdaexressioninasync.csproj", "{8741F66A-003A-4C2A-9565-E79CB930D713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anonymousfunctionandasync", "..\anonymousfunctionandasync\anonymousfunctionandasync.csproj", "{0B6862F5-7680-4A4E-8444-802761A9D609}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anonymousfunctionandasync", "anonymousfunctionandasync\anonymousfunctionandasync.csproj", "{0B6862F5-7680-4A4E-8444-802761A9D609}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaisinganEvent", "..\RaisinganEvent\RaisinganEvent.csproj", "{2B315A6A-B1A3-4C16-8E7E-653A82DADF0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaisinganEvent", "RaisinganEvent\RaisinganEvent.csproj", "{2B315A6A-B1A3-4C16-8E7E-653A82DADF0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeanEvent", "..\ConsumeanEvent\ConsumeanEvent.csproj", "{93DE6D92-60C2-4B07-80FA-A55AFE5F08E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeanEvent", "ConsumeanEvent\ConsumeanEvent.csproj", "{93DE6D92-60C2-4B07-80FA-A55AFE5F08E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Built-inEventHandlerDelegate", "..\Built-inEventHandlerDelegate\Built-inEventHandlerDelegate.csproj", "{D2B6960F-F01B-4943-9A7A-123BB2943686}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Built-inEventHandlerDelegate", "Built-inEventHandlerDelegate\Built-inEventHandlerDelegate.csproj", "{D2B6960F-F01B-4943-9A7A-123BB2943686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassingEventData", "..\PassingEventData\PassingEventData.csproj", "{ED864CB3-A01D-48E5-A32C-E5AD629358E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassingEventData", "PassingEventData\PassingEventData.csproj", "{ED864CB3-A01D-48E5-A32C-E5AD629358E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

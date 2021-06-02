@@ -28,7 +28,7 @@ namespace TPL
             //}
             Console.WriteLine();
 
-            Console.WriteLine("Parallel For Loop");
+            //Console.WriteLine("Parallel For Loop");
             Parallel.For(0, number, count =>
             {
                 Console.WriteLine($"value of count = {count}, thread = {Thread.CurrentThread.ManagedThreadId}");
@@ -40,11 +40,18 @@ namespace TPL
         private static void Runmillianitraton()
         {
             string x = "";
-
-            for (int i = 0; i < 1000000; i++)
-            { 
-            
+            List<int> num = new List<int>();
+            for (int i = 0; i < 10000000; i++)
+            {
+                Console.WriteLine("running through thread");
+                num.Add(i);
             }
+           
+            foreach (var a in num)
+            {
+                Console.WriteLine("a"+a);
+            }
+
         }
 
 
