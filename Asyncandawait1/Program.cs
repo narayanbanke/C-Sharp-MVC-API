@@ -11,7 +11,6 @@ namespace Asyncandawait1
         static void Main(string[] args)
         {
             somemethod();
-
             Console.WriteLine("Main method code");
             Console.Read();
         }

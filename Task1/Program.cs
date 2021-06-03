@@ -26,7 +26,7 @@ namespace Task1
             static void PrintCounter()
             {
                 Console.WriteLine($"Child Thread : {Thread.CurrentThread.ManagedThreadId} Started");
-                for (int count = 1; count <= 10; count++)
+                for (int count = 1; count <= 10000000000; count++)
                 {
                     Console.WriteLine($"count value: {count}");
                 }

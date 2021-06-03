@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Delegate1
 {
     public delegate void myTestDel(string Name);
+    public delegate string myTestDel1(string Name);
     class Program
     {
         static void Main(string[] args)
@@ -21,9 +22,10 @@ namespace Delegate1
             del("By Delagete call-Abhishek singh");
 
             del.Invoke(" Using Invoke - Abhishek Singh ");
-
             del = new myTestDel(getLocation);
-            del("Mumbai");
+            del.Invoke("India");
+             myTestDel1 del1 = new myTestDel1(getLocation1);
+            del1("Mumbai");
 
             Console.ReadLine();
         }
@@ -36,6 +38,10 @@ namespace Delegate1
         public static void getLocation(string location)
         {
             Console.WriteLine("My Loc: " + location);
+        }
+        public static string  getLocation1(string location)
+        {
+            return location;
         }
     }
      

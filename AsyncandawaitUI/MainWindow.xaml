@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="250" Width="500">
     <Grid>
+        <TextBox Name="txtname"  Width="50" Height="20"></TextBox>
         <Button Name="btnprocess" Content=" Processfile" Width="100" Height="20" Click="btnprocess_Click" Margin="204,22,188,127"></Button>
-        <Label Name="lblinfo"   Content="not yet count" Margin="196,114,196,35"></Label>
+        <Label Name="lblinfo"   Content="not yet count" Margin="196,114,196,79"></Label>
     </Grid>
 </Window>

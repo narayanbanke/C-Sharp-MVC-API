@@ -33,7 +33,7 @@ namespace AsyncandawaitUI
             {
                 string content = a.ReadToEnd();
                 count = content.Length;
-                Thread.Sleep(2000);
+                Thread.Sleep(5000);
             }
             return count;
         }

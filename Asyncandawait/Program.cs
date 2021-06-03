@@ -17,7 +17,7 @@ namespace Asyncandawait
         }
         static  void  somemethod()
         {
-            Task.Delay(100000);
+            Task.Delay(5000);
             Console.WriteLine("Asyncandawait");
         }
     }
