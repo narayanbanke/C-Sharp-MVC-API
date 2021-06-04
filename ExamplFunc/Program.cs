@@ -12,12 +12,19 @@ namespace ExamplFunc
         {
             return x + y;
         }
-
+        static int Sum(int x, int y, int z)
+        {
+            return x + y;
+        }
+        static string Sum(int x)
+        {
+            return x.ToString();
+        }
         static void Main(string[] args)
         {
-            Func<int, int, int> add = Sum;
+            Func<int , string> adddelegate = Sum;
 
-            int result = add(10, 10);
+            string result = adddelegate.Invoke(10);
 
             Console.WriteLine(result);
         }

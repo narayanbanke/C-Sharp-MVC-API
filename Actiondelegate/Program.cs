@@ -8,14 +8,15 @@ namespace Actiondelegate
 {
     class Program
     {
-        static void ConsolePrint(int i)
+        static void Print(int i)
         {
             Console.WriteLine(i);
+            //return i;
         }
 
         static void Main(string[] args)
         {
-            Action<int> printActionDel = ConsolePrint;
+            Action<int> printActionDel = Print;
             printActionDel(10);
         }
     }

@@ -29,12 +29,10 @@ namespace Delegate1
 
             Console.ReadLine();
         }
-
         public static void getName(string name)
         {
             Console.WriteLine("My Name: " + name);
         }
-
         public static void getLocation(string location)
         {
             Console.WriteLine("My Loc: " + location);
