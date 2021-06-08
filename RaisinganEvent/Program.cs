@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace RaisinganEvent
 {
-    public delegate void Notify();  // delegate
+    public delegate void Notify();  // delegate step1
 
     public class ProcessBusinessLogic
     {
-        public event Notify ProcessCompleted; // event
+        public event Notify ProcessCompleted; // event step2
 
         public void StartProcess()
         {
@@ -19,16 +19,19 @@ namespace RaisinganEvent
             OnProcessCompleted();
         }
 
-        protected virtual void OnProcessCompleted() //protected virtual method
+         void OnProcessCompleted() //protected virtual method step3
         {
             //if ProcessCompleted is not null then call delegate
-            ProcessCompleted?.Invoke();
+            if (ProcessCompleted != null)
+                ProcessCompleted.Invoke();
+           // ProcessCompleted?.Invoke(); //step4
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
+            
         }
 
     }

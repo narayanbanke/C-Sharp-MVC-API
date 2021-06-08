@@ -5,8 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 namespace PassingEventData
 {
-	 
-
 	public class Program
 	{
 		public static void Main()
@@ -22,18 +20,15 @@ namespace PassingEventData
 		{
 			Console.WriteLine("Process " + (e.IsSuccessful ? "Completed Successfully" : "failed"));
 			Console.WriteLine("Completion Time: " + e.CompletionTime.ToLongDateString());
-		
-		}
+				}
 	}
 
 	public class ProcessEventArgs : EventArgs
 	{
 		public bool IsSuccessful { get; set; }
 		public DateTime CompletionTime { get; set; }
-
-	}
-
-	public class ProcessBusinessLogic
+			}
+		public class ProcessBusinessLogic
 	{
 		public event EventHandler<ProcessEventArgs> ProcessCompleted; // event
 

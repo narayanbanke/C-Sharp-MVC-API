@@ -14,31 +14,35 @@ namespace ConsumeanEvent
 
         public void StartProcess()
         {
-            Console.WriteLine("Process Started!");
+            Console.WriteLine("Subcribe clicked!");
             // some code here..
-            OnProcessCompleted();
-        }
-
-        protected virtual void OnProcessCompleted() //protected virtual method
-        {
-            //if ProcessCompleted is not null then call delegate
+            // OnProcessCompleted();
             ProcessCompleted?.Invoke();
         }
+
+        //void OnProcessCompleted() //protected virtual method
+        //{
+        //    //if ProcessCompleted is not null then call delegate
+        //    ProcessCompleted?.Invoke();
+             
+        //}
     }
     class Program
     {
         public static void Main()
         {
-            ProcessBusinessLogic bl = new ProcessBusinessLogic();
-            bl.ProcessCompleted += bl_ProcessCompleted; // register with an event
+            ProcessBusinessLogic bl = new ProcessBusinessLogic();//next step1
+            bl.ProcessCompleted += delegatemethod; // register with an event and provide the action  next step2
             bl.StartProcess();
             Console.ReadLine();
         }
 
         // event handler
-        public static void bl_ProcessCompleted()
-        {
-            Console.WriteLine("Process Completed!");
+        public static void delegatemethod()
+        {// client code/ db insertion , updation
+            Console.WriteLine("Data Updated!");
+            Console.WriteLine("Email sent");
+            Console.WriteLine("Subscribed!");
         }
 
     }
