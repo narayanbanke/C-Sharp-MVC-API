@@ -275,6 +275,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousmethodwithActionde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Predicatedelegate", "Predicatedelegate\Predicatedelegate.csproj", "{CDCDC20F-79A1-41C8-94B1-B07C4019AF90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealuseofDelegate", "RealuseofDelegate\RealuseofDelegate.csproj", "{65AF2C14-0B10-4033-B65B-EF4C8EC0F1D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multicastdelegate1", "EventusingDelegate\Multicastdelegate1.csproj", "{7784EB71-89B8-42F3-8236-9652F8B7E748}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -825,6 +829,14 @@ Global
 		{CDCDC20F-79A1-41C8-94B1-B07C4019AF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDCDC20F-79A1-41C8-94B1-B07C4019AF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDCDC20F-79A1-41C8-94B1-B07C4019AF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65AF2C14-0B10-4033-B65B-EF4C8EC0F1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65AF2C14-0B10-4033-B65B-EF4C8EC0F1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65AF2C14-0B10-4033-B65B-EF4C8EC0F1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65AF2C14-0B10-4033-B65B-EF4C8EC0F1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7784EB71-89B8-42F3-8236-9652F8B7E748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7784EB71-89B8-42F3-8236-9652F8B7E748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7784EB71-89B8-42F3-8236-9652F8B7E748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7784EB71-89B8-42F3-8236-9652F8B7E748}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
